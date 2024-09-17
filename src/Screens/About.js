@@ -9,12 +9,13 @@ function About() {
       <div className="text-slate-200 flex flex-col gap-3 ">
         <h1 className="text-3xl mb-2 pt-3 p-2">I am Achal Kokatanoor</h1>
         <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
-          <div className="bg-[#28282B] sm:max-w-[300px] rounded-xl">
+          <div className="bg-[#28282B] sm:max-w-[300px] lg:min-w-[450px]  rounded-xl">
             <h1 className="text-lg">
               Previously, I have Done work on{" "}
               <span className="text-xl underline">
                 Patient Engagement and Record System
               </span>{" "}
+              As a Front-End & Back-End Developer
             </h1>
             <h1>Its Fully Dynamic and Responsive Website </h1>
             <h1> Click On The Image For Demonstration Video </h1>
@@ -33,7 +34,7 @@ function About() {
               </a>
             </div>
           </div>
-          <div className="bg-[#28282B] sm:max-w-[300px] rounded-xl">
+          <div className="bg-[#28282B] sm:max-w-[300px] lg:min-w-[450px] rounded-xl">
             <h1 className="text-lg">
               I have Did One Month Internship at
               <span className="text-xl underline">
@@ -55,7 +56,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="bg-[#28282B] sm:max-w-[300px] rounded-xl p-2 mb-4">
+          <div className="bg-[#28282B] sm:max-w-[300px] lg:min-w-[450px] rounded-xl p-2 mb-4">
             <h1 className="text-lg">I am activily Sloving Leetcode Problems</h1>
             <h1>Its Fully Dynamic and Responsive Website </h1>
             <h1> Click On The Image To See </h1>
