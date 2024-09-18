@@ -14,6 +14,7 @@ import Projects from "./Screens/Projects";
 import Password from "./Small Projects/PasswordGenerator/Password";
 import About from "./Screens/About";
 import Contact from "./Screens/Contact";
+import Weather from "./Small Projects/WeatherPrediction/Weather";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/project" element={<Projects />}>
             <Route path="todo" element={<Todo />}></Route>
             <Route path="OTPLogin" element={<OTP />}></Route>
+            <Route path="weather" element={<Weather />}></Route>
             <Route
               path="currencyConverter"
               element={<CurrencyConvertor />}

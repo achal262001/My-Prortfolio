@@ -30,6 +30,10 @@ function Projects() {
       name: "OTP Login",
       navigate: "OTPLogin",
     },
+    {
+      name: "Weather Prediction",
+      navigate: "weather",
+    },
   ];
   return (
     <div className="bg-[#28282B] min-h-screen">

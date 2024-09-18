@@ -19,7 +19,7 @@ function Contact() {
                 <FaGithub className="size-9 hover:size-10" />
               </span>{" "}
             </a>
-            <a href="www.linkedin.com/in/achalkokatanoor">
+            <a href="https://www.linkedin.com/in/achal-kokatanoor-588483266/">
               <span className="hover:cu">
                 <FaLinkedin className="size-9 hover:size-10" />
               </span>{" "}
