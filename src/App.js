@@ -1,20 +1,28 @@
 import logo from "./logo.svg";
 import "./App.css";
-import CurrencyConvertor from "./Small Projects/CurrencyConverter/CurrencyConvertor";
-import OTP from "./Small Projects/OTPlogin/LoginOTP";
-import Quiz from "./Small Projects/Quiz/Quiz";
-import Stepper from "./Small Projects/Stepper/Stepper";
 import { BrowserRouter, Routes, Router, Route } from "react-router-dom";
+import Projects from "./Screens/Projects";
+import Contact from "./Screens/Contact";
+import About from "./Screens/About";
 import Home from "./Screens/Home";
-import Todo from "./Small Projects/Todo/Todo";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import RBG from "./Small Projects/SetColor/RBG";
-import Projects from "./Screens/Projects";
-import Password from "./Small Projects/PasswordGenerator/Password";
-import About from "./Screens/About";
-import Contact from "./Screens/Contact";
-import Weather from "./Small Projects/WeatherPrediction/Weather";
+import {
+  CurrencyConvertor,
+  LoginOTP,
+  PasswordGenerator,
+  Quiz,
+  RBG,
+  Stepper,
+  Todo,
+  Weather,
+} from "./Small_Projects/React_JavaScript/index.js";
+import {
+  TicTacToe,
+  StickyNotesTracker,
+  A2048,
+  RockPaperScissors,
+} from "./Small_Projects/React_TypeScript/index.ts";
 
 function App() {
   return (
@@ -26,19 +34,29 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />}></Route>
+          <Route path="/contact" element={<Contact />} />
           <Route path="/project" element={<Projects />}>
             <Route path="todo" element={<Todo />}></Route>
-            <Route path="OTPLogin" element={<OTP />}></Route>
+            <Route path="OTPLogin" element={<LoginOTP />}></Route>
             <Route path="weather" element={<Weather />}></Route>
             <Route
               path="currencyConverter"
               element={<CurrencyConvertor />}
             ></Route>
-            <Route path="passwordGenerator" element={<Password />}></Route>
+            <Route path="stickyNotes" element={<StickyNotesTracker />}></Route>
+            <Route
+              path="passwordGenerator"
+              element={<PasswordGenerator />}
+            ></Route>
             <Route path="quiz" element={<Quiz />}></Route>
+            <Route path="TicTacToe" element={<TicTacToe />}></Route>
+            <Route path="A2048" element={<A2048 />}></Route>
+            <Route
+              path="RockPaperScissors"
+              element={<RockPaperScissors />}
+            ></Route>
             <Route path="RBG" element={<RBG />}></Route>
           </Route>
-          <Route path="/contact" element={<Contact />} />
         </Routes>
         <div>
           <Footer />

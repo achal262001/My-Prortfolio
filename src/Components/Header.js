@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import header_img from "../Images/LinkedIn.jpg";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Stepper from "../Small Projects/Stepper/Stepper";
+import Stepper from "../Small_Projects/React_JavaScript/Stepper/Stepper.jsx";
 
 function Header() {
   const [showHamburgur, setShowHamburgur] = useState(false);
@@ -28,7 +28,7 @@ function Header() {
           >
             <ul
               className={`flex flex-col  font-medium p-4 md:p-0 mt-4 text-slate-200 border rounded-lg bg-slate-800 ${
-                showHamburgur ? "" : "max-sm:hidden"
+                showHamburgur ? "" : "max-md:hidden"
               }  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:px-5 md:py-1 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700`}
             >
               <li>
