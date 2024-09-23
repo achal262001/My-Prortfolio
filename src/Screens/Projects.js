@@ -56,6 +56,10 @@ function Projects() {
       name: "Weather Prediction",
       navigate: "weather",
     },
+    {
+      name: "React YouTube Card",
+      navigate: "weather",
+    },
   ];
   const Array_React_TypeScript_Project = [
     {
