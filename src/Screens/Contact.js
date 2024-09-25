@@ -219,6 +219,13 @@ function Contact() {
                   do configurations for Tailwind Css Than import these
                   components in app.tsx component.
                 </div>
+
+                <h1 className="text-xl p-5">
+                  These All Game Are avalable for{" "}
+                  <span className="text-2xl underline">
+                    PC's or LapTops or Tablets with Keybord
+                  </span>
+                </h1>
               </div>
             )}
           </div>

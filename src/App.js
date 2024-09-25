@@ -55,7 +55,7 @@ function App() {
               path="passwordGenerator"
               element={<PasswordGenerator />}
             ></Route>
-            <Route path="quiz" element={<Quiz />}></Route>
+            <Route path="quizJS" element={<Quiz />}></Route>
             <Route path="TicTacToe" element={<TicTacToe />}></Route>
             <Route path="A2048" element={<A2048 />}></Route>
             <Route

@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { BsSkipBackwardCircleFill, BsYoutube } from "react-icons/bs";
+import Quiz from "../Small_Projects/React_JavaScript/Quiz/Quiz.js";
 
 function Projects() {
   const navigate = useNavigate();
@@ -11,7 +12,7 @@ function Projects() {
       navigate: "/2048.html",
     },
     {
-      name: "Quize",
+      name: "Quiz",
       navigate: "/quiz.html",
     },
     {
@@ -34,7 +35,7 @@ function Projects() {
     },
     {
       name: "Quiz",
-      navigate: "quiz",
+      navigate: "quizJS",
     },
     {
       name: "SetColor",
