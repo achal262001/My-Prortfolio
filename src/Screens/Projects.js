@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
-import { BsSkipBackwardCircleFill } from "react-icons/bs";
+import { BsSkipBackwardCircleFill, BsYoutube } from "react-icons/bs";
 
 function Projects() {
   const navigate = useNavigate();
@@ -8,23 +8,19 @@ function Projects() {
   const Array_HTML_CSS_JS_Project = [
     {
       name: "2048",
-      navigate:
-        "http://127.0.0.1:5500/src/Small_Projects/HTML-CSS-JS_Projects/2048/2048.html",
+      navigate: "/2048.html",
     },
     {
       name: "Quize",
-      navigate:
-        "http://127.0.0.1:5500/src/Small_Projects/HTML-CSS-JS_Projects/Quize/quiz.html",
+      navigate: "/quiz.html",
     },
     {
       name: "Random Color Generator",
-      navigate:
-        "http://127.0.0.1:5500/src/Small_Projects/HTML-CSS-JS_Projects/Random%20Color%20Generator/colorGen.html",
+      navigate: "/colorGen.html",
     },
     {
       name: "To Do List",
-      navigate:
-        "http://127.0.0.1:5500/src/Small_Projects/HTML-CSS-JS_Projects/To-do%20List/todo.html",
+      navigate: "/todo.html",
     },
   ];
   const Array_React_JavaScript_Project = [
@@ -56,10 +52,6 @@ function Projects() {
       name: "Weather Prediction",
       navigate: "weather",
     },
-    {
-      name: "React YouTube Card",
-      navigate: "weather",
-    },
   ];
   const Array_React_TypeScript_Project = [
     {
@@ -82,7 +74,7 @@ function Projects() {
 
   const handleClick = () => {
     window.open(
-      "http://127.0.0.1:5500/src/Small_Projects/HTML-CSS-JS_Projects/2048/2048.html",
+      "src/Small_Projects/HTML-CSS-JS_Projects/2048/2048.html",
       "_blank"
     );
   };
@@ -126,6 +118,14 @@ function Projects() {
               </div>
             );
           })}
+          <a href="https://reactfunctionality.vercel.app/">
+            <div className="flex hover:animate-bounce  justify-center items-center rounded-xl p-4 m-1 bg-gray-500 h-24 w-24 sm:h-30 sm:w-32">
+              <h2 className="text-lg cursor-pointer p-2">
+                {" "}
+                React Youtube Card
+              </h2>
+            </div>
+          </a>
         </div>
       </div>
       <div className=" flex flex-col ">

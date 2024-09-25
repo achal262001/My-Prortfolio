@@ -36,6 +36,13 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />} />
           <Route path="/project" element={<Projects />}>
+            <Route
+              path="quiz"
+              component={() => {
+                window.location.href = "/quiz.html";
+                return;
+              }}
+            />
             <Route path="todo" element={<Todo />}></Route>
             <Route path="OTPLogin" element={<LoginOTP />}></Route>
             <Route path="weather" element={<Weather />}></Route>

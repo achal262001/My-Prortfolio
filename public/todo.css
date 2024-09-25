@@ -19,6 +19,7 @@ main {
   height: 550px;
   background-color: #bdc3c7;
   color: antiquewhite;
+  position: relative;
   border-radius: 15px;
   padding: 15px;
 }
@@ -36,6 +37,24 @@ ul {
   padding: 12px 0;
   width: 100%;
   border-radius: 8px;
+  margin: 1px;
+}
+#x {
+  top: 0;
+  right: 0;
+  height: 28px;
+  padding: 1px;
+}
+ul li button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 28px;
+  padding: 1px;
+}
+ul li {
+  padding: 4px;
+  margin: 4px;
 }
 li {
   list-style: none;
@@ -47,6 +66,7 @@ li {
 }
 button {
   position: absolute;
+  height: 33px;
   right: 10px;
-  top: 5px;
+  top: 15px;
 }
