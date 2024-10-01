@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Router, Route } from "react-router-dom";
+
 import Projects from "./Screens/Projects";
 import Contact from "./Screens/Contact";
 import About from "./Screens/About";
@@ -23,6 +24,7 @@ import {
   A2048,
   RockPaperScissors,
 } from "./Small_Projects/React_TypeScript/index.ts";
+import Login from "./Screens/Login";
 
 function App() {
   return (
@@ -32,7 +34,8 @@ function App() {
           <Header />
         </div>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />} />
           <Route path="/project" element={<Projects />}>

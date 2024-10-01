@@ -33,7 +33,7 @@ function Header() {
             >
               <li>
                 <Link
-                  to="/"
+                  to="/home"
                   onClick={() => setShowHamburgur(false)}
                   className="block py-2 px-3 md:p-0 text-white hover:bg-gray-100  hover:text-slate-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500"
                   aria-current="page"
